@@ -1,0 +1,20 @@
+# Firmware dumps: the badge vendor's code. Reproduce with esptool (see dump/README.md);
+# do not redistribute.
+dump/*.bin
+dump/parts/
+*.bin
+
+# Logs and large/derived analysis artifacts (regenerate from analysis/map.rz)
+logs/
+*.log
+analysis/full.txt
+analysis/disp.txt
+
+# Session transcripts / conversation exports: never commit (may contain personal data)
+*-i-connected-*.txt
+*.session.txt
+
+# Python/editor cruft
+__pycache__/
+*.pyc
+.DS_Store

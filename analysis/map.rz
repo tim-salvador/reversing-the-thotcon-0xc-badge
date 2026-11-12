@@ -1,0 +1,10 @@
+om-*
+om 3 0x400d0020 0x9034c 0x030020 rx seg3_code
+om 3 0x3f400020 0x20454 0x20 r seg0_rodata
+om 3 0x3ffbdb60 0x06a90 0x02047c rw seg1_data
+om 3 0x40080000 0x09104 0x026f14 rx seg2_iram
+om 3 0x40089104 0x0c6ac 0x0c0374 rx seg4_iram
+e asm.arch=xtensa
+e asm.bits=32
+e asm.cpu=esp32
+e analysis.cpu=esp32
